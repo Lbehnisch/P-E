@@ -19,3 +19,4 @@ if (getColor() == "blue") {
  right(); up();
 } else {
 	left(); up();
+}
