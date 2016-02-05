@@ -1,0 +1,25 @@
+
+
+int dir = 5;
+int ypos = 10;
+
+
+void setup () {
+  size (400, 400);
+  stroke(255);
+  strokeWeight(2);
+  fill (255, 0 , 0);
+}
+
+
+void draw () {
+    background(0);
+   ellipse (200, ypos, 20, 20);
+   ypos +=dir; 
+   
+   if (ypos > 400 || ypos < 0){
+     dir *= -1;
+   }
+   
+
+}
